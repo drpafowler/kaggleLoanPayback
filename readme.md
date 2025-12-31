@@ -26,7 +26,7 @@ This repository contains a modular, end-to-end machine learning pipeline designe
 You can run each model individually or execute the entire pipeline using the `controller.py` script.
 
 ```bash
-python controller.py
+python3 controller.py
 ``` 
 This will sequentially run data preprocessing, model training, prediction generation, and blending.
 
