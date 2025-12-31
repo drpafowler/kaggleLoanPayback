@@ -1,7 +1,6 @@
 # Loan Payback Prediction: Automated Stacking Pipeline
 
-This repository contains a modular, end-to-end machine learning pipeline designed for the Season 5 Episode 11 Competition in Kaggle's Playground. It utilizes stacking to combine the strengths of GBDTs, Neural Networks, and Linear models.
-
+This repository contains a modular, end-to-end machine learning pipeline designed for the Season 5 Episode 11 Competition in Kaggle's Playground. 
 ---
 
 ## Directory Structure
@@ -18,5 +17,17 @@ This repository contains a modular, end-to-end machine learning pipeline designe
 ├── ensemble.py             # Correlation & diversity report
 ├── blender.py              # Ridge Regression Super-Learner (The Stacker)
 └── [model_name].py         # Individual model scripts (LGBM, XGB, etc.)
+
+'''
+## Usage
+
+You can run each model individually or execute the entire pipeline using the `controller.py` script.
+
+```bash
+python controller.py
+``` 
+This will sequentially run data preprocessing, model training, prediction generation, and blending.
+
+
 
 
