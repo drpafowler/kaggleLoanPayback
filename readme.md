@@ -18,7 +18,9 @@ This repository contains a modular, end-to-end machine learning pipeline designe
 ├── blender.py              # Ridge Regression Super-Learner (The Stacker)
 └── [model_name].py         # Individual model scripts (LGBM, XGB, etc.)
 
-'''
+```
+
+
 ## Usage
 
 You can run each model individually or execute the entire pipeline using the `controller.py` script.
